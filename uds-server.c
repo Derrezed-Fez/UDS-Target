@@ -56,9 +56,9 @@ int session_level = 0x00;
 
 //conf options
 cfg_opt_t opts[] ={
-		  CFG_STR("ECU_RESET", "false", CFGF_NONE),
-		  CFG_STR("UNDOC_DID", "false", CFGF_NONE),
-		  CFG_STR("P2_MAX", "false", CFGF_NONE),
+		  CFG_STR("ECU_RESET", "true", CFGF_NONE),
+		  CFG_STR("UNDOC_DID", "true", CFGF_NONE),
+		  CFG_STR("P2_MAX", "true", CFGF_NONE),
 		  CFG_INT("ECU_RESET_DOS_TIME", 10, CFGF_NONE),
 		  CFG_END()
 	};
